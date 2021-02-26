@@ -10,7 +10,6 @@
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules  src/server.ts",
     "build": "tsc --build",
     "clean": "tsc --build --clean",
-    "postinstall": "yarn",
     "start": "node dist/server.js"
   },
   "dependencies": {
