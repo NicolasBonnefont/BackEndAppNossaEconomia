@@ -10,7 +10,8 @@
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules  src/server.ts",
     "build": "tsc --build",
     "clean": "tsc --build --clean",
-    "start": "npm install tsc --build node src/server.js"
+    "postinstall": "yarn",
+    "start": "node dist/server.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
